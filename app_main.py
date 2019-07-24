@@ -28,7 +28,6 @@ import win32con, win32api
 import exifread
 
 
-
 class Destop_create(object):
 # Python中类名约定以大写字母开头;
 # 特征描述符称为是属性，在代码层面看来其实就是变量
@@ -352,7 +351,7 @@ if __name__ == "__main__":
 	creat_hidden_file('jh','wer','.log')
 	#all_file = []
 	#print(all_file)
-	all_file=cache_file_infor("123")
+	all_file=cache_file_infor("picture_file")
 	app_main(all_file,u'jh\\wer.log')
 	
 	#print(all_file)
